@@ -10,7 +10,10 @@ This is demonstration of various digital signal processing functions and program
    - *inverseDiscreteFourierTransform()* - computes inverse discrete Fourier transform x of given spectrum X
    - *discreteCosineTransform()* - computes discrete cosine transform X of given signal x using analysis matrix
    - *inverseDiscreteCosineTransform()* - computes inverse discrete cosine transform x of given spectrum X
+   - *discreteCosineTransform2D()* - computes 2D discrete cosine transform X of given matrix x
+   - *inverseDiscreteCosineTransform2D()* - computes inverse 2D discrete cosine transform x of given matrix X
    - *example1* - Different ways of calculating Fourier transform compared to Matlab fft function
    - *example2* - Calculating cosine transform compared to Matlab dct function
    - *example3* - Inverse transformations and analysis matrix orthonormality
    - *example4* - Calculating dft of 2 N-point real signals using 1 N-point dft
+   - *example5* - Calculating (inverse) 2D cosine transform compared to Matlab dct2 function
