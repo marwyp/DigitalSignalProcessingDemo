@@ -1,7 +1,6 @@
 % example 1
-% This example shows different methods of computing
-% discrete Fourier transform and comparison to
-% Matlab fft function
+% Different ways of calculating Fourier 
+% transform compared to Matlab fft function
 clear all; close all;
 
 % signal generation

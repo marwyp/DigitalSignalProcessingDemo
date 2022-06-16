@@ -1,6 +1,6 @@
 % example 3
-% This example shows inverse transforms
-% and ortonormality of theirs analysys matrixes
+% inverse transformation
+% and analysis matrix orthonormality
 
 clear all; close all;
 
@@ -62,7 +62,7 @@ plot(t, x_rec);
 title("Signal DCT recontruction x_r_e_c");
 xlabel("t [s]");
 
-% is analysys matrix of the cosine transformation ortonormal ?
+% is analysis matrix of the cosine transformation ortonormal ?
 k = 0 : N - 1;
 n = 0 : N - 1;
 A = zeros(N, N);

@@ -1,6 +1,6 @@
 % example 4
-% Computing dft of 2 N point real signals
-% using 1 N point dft
+% Calculating dft of 2 N-point real signals
+% using 1 N-point dft
 clear all; close all;
 
 % signals generation

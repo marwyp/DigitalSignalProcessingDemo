@@ -1,7 +1,6 @@
 % example 2
-% This example shows
-% discrete cosine transform and comparison to
-% Matlab dct function
+% Calculating cosine transform compared
+% to Matlab dct function
 clear all; close all;
 
 % signal generation
