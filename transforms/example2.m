@@ -1,5 +1,5 @@
-% example 1
-% This example shows different methods of computing
+% example 2
+% This example shows
 % discrete cosine transform and comparison to
 % Matlab dct function
 clear all; close all;
