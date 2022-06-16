@@ -8,3 +8,7 @@ This is demonstration of various digital signal processing functions and program
       - fft
    - discrete cosine transform
       - dct - using analysis matrix
+   - inverse transforms
+      - idct
+      - idft
+      - matrix ortonormality
