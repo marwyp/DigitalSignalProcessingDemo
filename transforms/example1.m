@@ -7,8 +7,7 @@ clear all; close all;
 % signal generation
 frequencies = [10, 20, 30];
 fs = 1000;                  % Sampling frequency;
-tLen = 2;                   % Length of signal in [s]
-N = tLen * fs;              % Number of samples
+N = 2048;                   % Number of samples
 t = (0 : N - 1) * 1/fs;     % Time samples
 x = 0;                      % Signal
 for f = frequencies
@@ -32,16 +31,22 @@ X_dft = spectrumShift(X_dft);
 error = max(abs(X_dft) - abs(X_matlab));
 disp("dft error = " + error);
 
-% dft
+% rec
 X_rec = discreteFourierTransform(x, "rec") / N;
 X_rec = spectrumShift(X_rec);
 error = max(abs(X_rec) - abs(X_matlab));
 disp("rec error = " + error);
 
+% fft
+X_fft = discreteFourierTransform(x, "fft") / N;
+X_fft = spectrumShift(X_fft);
+error = max(abs(X_fft) - abs(X_matlab));
+disp("fft error = " + error);
+
 % plot spectrum
 lim = [-max(frequencies) - 2, max(frequencies) + 2];
-XList = [X_dft; X_rec; X_matlab];
-titles = ["dft", "rec", "matlab"];
+XList = [X_dft; X_rec; X_fft; X_matlab];
+titles = ["dft", "rec", "fft", "matlab"];
 xl = "f [Hz]";
 shape = [2, 2];
 figure;
