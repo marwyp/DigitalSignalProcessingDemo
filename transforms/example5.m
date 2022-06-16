@@ -1,5 +1,5 @@
 % example 5
-% Calculating 2D cosine transform
+% Calculating (inverse) 2D cosine transform
 % compared to Matlab dct2 function
 clear all; close all;
 

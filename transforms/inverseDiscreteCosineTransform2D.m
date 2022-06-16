@@ -1,5 +1,6 @@
 function [x] = inverseDiscreteCosineTransform2D(X)
-%INVERSEDISCRETECOSINETRANSFORM2D 
+%INVERSEDISCRETECOSINETRANSFORM2D computes inverse 2D
+% discrete cosine transform x of given matrix X
 
 X = double(X);
 % size of matrix x

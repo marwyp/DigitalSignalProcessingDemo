@@ -1,5 +1,5 @@
 function [X] = discreteCosineTransform2D(x)
-% DISCRETECOSINETRANSFORM2D computes discrete 
+% DISCRETECOSINETRANSFORM2D computes 2D discrete 
 % cosine transform X of given matrix x
 x = double(x);
 % size of matrix x
