@@ -4,9 +4,8 @@ function [X] = discreteFourierTransform(x, mode)
 % modes: 
 %   dft - using analysis matrix
 %   rec - using recursive raddix-2 algorithm
-%   fft - using raddix-2 algorithm
-%   real - accelerated fft for real signals
-% fft and real - only for data of 2^n length
+%   fft - using raddix-2 algorithm, only for data of 2^n length
+% fft and real - 
 N = length(x);
 if mode == "dft"
     % analysis matrix
@@ -52,7 +51,7 @@ elseif mode == "fft"
         nb = N/2^s;                 % number of blocks
         W = exp(-1i*2*pi/2^s);      % correction
         for butterfly = 1 : bw
-            Wm = W^(butterfly-1);           % korekta motylka
+            Wm = W^(butterfly-1);   % butterfly correction
             for b = 1 : nb          % blocks
                 up   = 1      + (butterfly-1) + sbb*(b-1);
                 down = 1 + bw + (butterfly-1) + sbb*(b-1);
@@ -62,6 +61,5 @@ elseif mode == "fft"
             end
         end
     end
-end
 end
 
