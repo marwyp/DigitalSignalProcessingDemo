@@ -3,13 +3,14 @@ This is demonstration of various digital signal processing functions and program
 
 ### Covered topics
 1. Transforms
-   - discrete Fourier transform
+   - *discreteFourierTransform()* - computes discrete Fourier transform X of given signal x
       - dft - using analysis matrix
       - rec - using recursive raddix-2 algorithm
       - fft - using raddix-2 algorithm
-   - discrete cosine transform
-      - dct - using analysis matrix
-   - inverse transforms
-      - idct
-      - idft
-      - matrix ortonormality
+   - *inverseDiscreteFourierTransform()* - computes inverse discrete Fourier transform x of given spectrum X
+   - *discreteCosineTransform()* - computes discrete cosine transform X of given signal x using analysis matrix
+   - *inverseDiscreteCosineTransform()* - computes inverse discrete cosine transform x of given spectrum X
+   - *example1* - Different ways of calculating Fourier transform compared to Matlab fft function
+   - *example2* - Calculating cosine transform compared to Matlab dct function
+   - *example3* - Inverse transformations and analysis matrix orthonormality
+   - *example4* - Calculating dft of 2 N-point real signals using 1 N-point dft
