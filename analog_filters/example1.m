@@ -29,7 +29,7 @@ xlabel("Real(s)"); ylabel("Imag(s)");
 % filter transmittance in frequency domain
 w = 0 : 0.01 : 20;      % angular frequency domain
 [b, a] = zeroPole2TransferFunction(z, p, 1);
-H = frequencyResponse(b, a, w);
+H = analogFrequencyResponse(b, a, w);
 
 % Matlab functions
 [b_matlab, a_matlab] = zp2tf(z', p', 1);

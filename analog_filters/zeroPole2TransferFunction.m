@@ -1,5 +1,5 @@
 function [b, a] = zeroPole2TransferFunction(z, p, k)
-%ZEROPOLE2TRANSFERFUNCTION Convert zero-pole-gain
+%ZEROPOLE2TRANSFERFUNCTION convert zero-pole-gain
 % filter parameters to transfer function form
 
 % poly returns the coefficients of the polynomial
