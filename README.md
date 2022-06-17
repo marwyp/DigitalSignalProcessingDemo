@@ -17,3 +17,7 @@ This is demonstration of various digital signal processing functions and program
    - *example3* - Inverse transformations and analysis matrix orthonormality
    - *example4* - Calculating dft of 2 N-point real signals using 1 N-point dft
    - *example5* - Calculating (inverse) 2D cosine transform compared to Matlab dct2 function
+2. Analog filters
+   - *analogFrequencyResponse()* - frequency response of analog filters
+   - *zeroPole2TransferFunction()* - convert zero-pole-gain filter parameters to transfer function form
+   - *example1* - designing a band-pass filter with pole-zero matching method
