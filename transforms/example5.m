@@ -1,7 +1,7 @@
 % example 5
 % Calculating (inverse) 2D cosine transform
 % compared to Matlab dct2 function
-clear all; close all;
+clearvars; close all;
 
 % matrixes
 N = 128;

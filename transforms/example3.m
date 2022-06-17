@@ -2,7 +2,7 @@
 % inverse transformation
 % and analysis matrix orthonormality
 
-clear all; close all;
+clearvars; close all;
 
 % signal generation
 frequencies = [10, 20, 30];

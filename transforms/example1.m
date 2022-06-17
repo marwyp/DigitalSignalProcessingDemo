@@ -1,7 +1,7 @@
 % example 1
 % Different ways of calculating Fourier 
 % transform compared to Matlab fft function
-clear all; close all;
+clearvars; close all;
 
 % signal generation
 frequencies = [10, 20, 30];

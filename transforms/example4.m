@@ -1,7 +1,7 @@
 % example 4
 % Calculating dft of 2 N-point real signals
 % using 1 N-point dft
-clear all; close all;
+clearvars; close all;
 
 % signals generation
 N = 1024;                   % Number of samples

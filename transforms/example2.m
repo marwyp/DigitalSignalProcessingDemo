@@ -1,7 +1,7 @@
 % example 2
 % Calculating cosine transform compared
 % to Matlab dct function
-clear all; close all;
+clearvars; close all;
 
 % signal generation
 frequencies = [10, 20, 30];
