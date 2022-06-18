@@ -20,4 +20,6 @@ This is demonstration of various digital signal processing functions and program
 2. Analog filters
    - *analogFrequencyResponse()* - frequency response of analog filters
    - *zeroPole2TransferFunction()* - convert zero-pole-gain filter parameters to transfer function form
+   - *analogButterworthZerosPolesLP()* - designs a lowpass analog Nth order Butterworth filter with cutoff frequency w3dB in rad/s and returns its zeros and poles
    - *example1* - designing a band-pass filter with pole-zero matching method
+   - *example2* - Butterworth lowpass analog filter characteristic
