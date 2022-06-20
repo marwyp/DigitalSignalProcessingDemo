@@ -27,4 +27,6 @@ This is demonstration of various digital signal processing functions and program
 4. Digital FIR filters - TODO
 5. Modulations - TODO
 6. Audio coding - TODO
-7. Image processing - TODO
+7. Image processing
+   - *triangleMaskLP()* - designs triangle lowpass mask for image filtering
+   - *example1* - frequency domain image filtering
