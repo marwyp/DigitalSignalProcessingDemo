@@ -23,3 +23,8 @@ This is demonstration of various digital signal processing functions and program
    - *analogButterworthZerosPolesLP()* - designs a lowpass analog Nth order Butterworth filter with cutoff frequency w3dB in rad/s and returns its zeros and poles
    - *example1* - designing a band-pass filter with pole-zero matching method
    - *example2* - Butterworth lowpass analog filter characteristic
+3. Digital IIR filters - TODO
+4. Digital FIR filters - TODO
+5. Modulations - TODO
+6. Audio coding - TODO
+7. Image processing - TODO
