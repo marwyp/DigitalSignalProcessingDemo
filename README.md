@@ -25,7 +25,10 @@ This is demonstration of various digital signal processing functions and program
    - *example2* - Butterworth lowpass analog filter characteristic
 3. Digital IIR filters - TODO
 4. Digital FIR filters - TODO
-5. Modulations - TODO
+5. Modulations
+   - *hilbertResponse()* - impulse response of Hilbert Filter
+   - *hilbertFilter()* - filters given signal x using Hilbert Filter impulse response
+   - *example1* - Hilbert filter compared to Matlab hilbert function
 6. Audio coding - TODO
 7. Image processing
    - *triangleMaskLP()* - designs triangle lowpass mask for image filtering
