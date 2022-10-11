@@ -1,6 +1,5 @@
 function [h] = hilbertResponse(M, window)
-% HILBERTRESPONSE calculates Hilbert filter
-% impulse response
+% HILBERTRESPONSE impulse response of Hilbert Filter
 % 2 * M + 1 = size of Hibert Filter
 
 % samples 1 : M, half of impulse response
