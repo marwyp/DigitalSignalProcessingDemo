@@ -28,7 +28,10 @@ This is demonstration of various digital signal processing functions and program
 5. Modulations
    - *hilbertResponse()* - impulse response of Hilbert Filter
    - *hilbertFilter()* - filters given signal x using Hilbert Filter impulse response
+   - *modulatorAM()* - modulates given signal x using given carrier frequency fc of amplitude Ac and sampling frequency fs
+   - *demodulatorAM()* - demodulates given signal y
    - *example1* - Hilbert filter compared to Matlab hilbert function
+   - *example2* - Amplitude modulation and demodulation
 6. Audio coding - TODO
 7. Image processing
    - *triangleMaskLP()* - designs triangle lowpass mask for image filtering
