@@ -1,5 +1,5 @@
 # DigitalSignalProcessingDemo
-This is demonstration of various digital signal processing functions and programs using Matlab.
+This is demonstration of various digital signal processing functions and applications using Matlab.
 
 ### Covered topics
 1. Transforms
